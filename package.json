@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon --inspect index.js",
+    "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +23,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }
